@@ -1,8 +1,10 @@
 # Getting Started with Movie Review Site
 
 This web application takes data from an online API to generate an array of movies via JSON files. To access the site simply enter the following credentials:
-Username: benedict
-Password: 1234
+
+* Username: benedict
+* Password: 1234
+
 ![image](https://user-images.githubusercontent.com/53241776/203767241-67966405-3a05-4af7-acd9-bb07b2441f67.png)
 
 ![image](https://user-images.githubusercontent.com/53241776/203767699-1696b95c-20e4-4923-9606-8d44fec2e7de.png)
