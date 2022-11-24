@@ -1,0 +1,28 @@
+<div class="login-container">
+    <img class = "film" src="assets/film.png">
+    <div class ="logo">Rotten Potatoes</div>
+    <div class="desc">
+        This is a projects explaining a development of a complete angular 
+        application which explains all basic concepts in Angular. 
+        Don't miss this complete project. This angular tutorial series 
+        is the best tutorial series for beginners. In this video, 
+        a complete project in angular has been developed and explained 
+        using Angular 11. So, for those who are looking for tutorials 
+        in Angular 10 or Angular 11, they can follow this Angular zero 
+        to hero series. 
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username"/>
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password"/>
+        </div>
+        <div class = "btn-container">
+            <div class="error">{{ errorMsg }}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+    </div>
+</div>
